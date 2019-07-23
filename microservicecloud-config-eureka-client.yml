@@ -12,7 +12,6 @@ spring:
 eureka:
   instance:
     hostname: eureka7001.com 
-     defaultZone: http://eureka7001.com:7001/eureka/
   client:
     register-with-eureka: false
     fetch-registry: false
@@ -28,7 +27,6 @@ spring:
 eureka:
   instance:
     hostname: eureka7001.com 
-     defaultZone: http://eureka-dev.com:7001/eureka/
   client:
     register-with-eureka: false
     fetch-registry: false
