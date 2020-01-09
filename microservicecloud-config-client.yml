@@ -14,7 +14,7 @@ eureka:
     service-url:
      defaultZone: http://eureka-dev.com:7001/eureka/
 dyg:
-  man: 123
+  man: 456
 ---
 server:
  port: 8202
