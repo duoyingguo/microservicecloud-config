@@ -4,7 +4,7 @@ spring:
     - test
 ---
 server:
-  port: 8201
+  port: 8203
 spring:
   profiles: dev         #开发环境
   application:
@@ -14,10 +14,10 @@ eureka:
     service-url:
      defaultZone: http://eureka7002-dev.com:7002/eureka/,http://eureka7003-dev.com:7003/eureka/,http://eureka7001-dev.com:7001/eureka/
 dyg:
-  man: 456
+  man: 456-git
 ---
 server:
- port: 8202
+ port: 8204
 spring:
   profiles: test         #测试环境
   application:
